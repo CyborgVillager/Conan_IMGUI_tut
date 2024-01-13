@@ -1,8 +1,10 @@
 ﻿     0>Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild;$(MSBuildProgramFiles32)\MSBuild
+       Assembly loaded during Evaluation: System.Collections.Immutable, Version=7.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\System.Collections.Immutable.dll, MVID: 5f9ff90f-0d16-4469-a104-76829d3705e2, AppDomain: [Default])
        Trying to import C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\$(MSBuildToolsVersion)\Microsoft.Common.props using extensions path C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild
        Property reassignment: $(MSBuildProjectExtensionsPath)="C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\obj\" (previous value: "obj\") at C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Microsoft.Common.props (60,5)
        Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild;$(MSBuildProgramFiles32)\MSBuild
        Trying to import C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\$(MSBuildToolsVersion)\Imports\Microsoft.Common.props\ImportBefore\* using extensions path C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild
+       Assembly loaded during Evaluation: Microsoft.IO.Redist, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51 (location: C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\Microsoft.IO.Redist.dll, MVID: d528d43e-4d35-4c28-8aa6-a5ce49a5eba7, AppDomain: [Default])
        Property 'VisualStudioVersion' with value '17.0' expanded from the environment.
        The "Configuration" property is a global property, and cannot be modified.
        Search paths being used for $(MSBuildExtensionsPath) are C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild;$(MSBuildProgramFiles32)\MSBuild
@@ -13,6 +15,7 @@
        Property 'LOCALAPPDATA' with value 'C:\Users\almaw\AppData\Local' expanded from the environment.
        Property reassignment: $(UseDebugLibraries)="true" (previous value: "false") at C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu.vcxproj (44,5)
        Property reassignment: $(CharacterSet)="Unicode" (previous value: "NotSet") at C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu.vcxproj (46,5)
+       Assembly loaded during Evaluation: Microsoft.Build.Utilities.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a (location: C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\Microsoft.Build.Utilities.Core.dll, MVID: b9323406-6cbf-49cf-bba1-184f5fabe908, AppDomain: [Default])
        Property 'PROCESSOR_ARCHITECTURE' with value 'AMD64' expanded from the environment.
        Property reassignment: $(WindowsSdkDir_10)="C:\Program Files (x86)\Windows Kits\10\" (previous value: "") at C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.props (18,5)
        Property reassignment: $(NETFXKitsDir)="C:\Program Files (x86)\Windows Kits\NETFXSDK\4.8.1\" (previous value: "") at C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.WindowsSDK.props (41,5)
@@ -784,7 +787,7 @@
        The target "CompileDesignTime" listed in a BeforeTargets attribute at "C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\WebTools.Aspire\Microsoft.WebTools.Aspire.targets (44,11)" does not exist in the project, and will be ignored.
        The target "CompileDesignTime" listed in a BeforeTargets attribute at "C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VisualStudio\WebTools.Aspire\Microsoft.WebTools.Aspire.targets (57,11)" does not exist in the project, and will be ignored.
        The target "CopyLocalFilesOutputGroup" listed in a BeforeTargets attribute at "G:\VCPKG\vcpkg\scripts\buildsystems\msbuild\vcpkg.targets (202,82)" does not exist in the project, and will be ignored.
-Build started 1/13/2024 5:27:36 AM.
+Build started 1/13/2024 5:57:18 AM.
 Logging verbosity is set to: Detailed.     1>Project "C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu.vcxproj" on node 2 (Build target(s)).
      1>Target "EnableIntermediateOutputPathMismatchWarning" skipped, due to false condition; ('$(RestoreProjectStyle)' == 'PackageReference') was evaluated as ('' == 'PackageReference').
      1>Target "_CheckForInvalidConfigurationAndPlatform" in file "C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\Microsoft.Common.CurrentVersion.targets" from project "C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu.vcxproj" (target "SetTelemetryEnvironmentVariables" depends on it):
@@ -807,10 +810,10 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\almaw\source\repo
      1>Target "SetTelemetryEnvironmentVariables" in file "C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.Cpp.DesignTime.targets" from project "C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu.vcxproj" (target "Build" depends on it):
        Using "SetEnv" task from assembly "C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Microsoft\VC\v170\Microsoft.Build.CppTasks.Common.dll".
        Task "SetEnv"
-         VSTEL_SolutionSessionID={918F3AA1-1899-464D-B8B5-239D771E8700}
+         VSTEL_SolutionSessionID={C76FD896-1FA4-4459-95F0-7B52847E0404}
        Done executing task "SetEnv".
        Task "SetEnv"
-         VSTEL_CurrentSolutionBuildID=2098667190
+         VSTEL_CurrentSolutionBuildID=2731865968
        Done executing task "SetEnv".
        Task "SetEnv"
          VSTEL_SolutionPath=C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu.sln
@@ -995,6 +998,7 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\almaw\source\repo
        Done executing task "WriteLinesToFile".
        Using "Touch" task from assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
        Task "Touch"
+         Creating "x64\Debug\IMGUI_basic_menu.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
          Touching "x64\Debug\IMGUI_basic_menu.tlog\unsuccessfulbuild".
        Done executing task "Touch".
      1>Done building target "InitializeBuildStatus" in project "IMGUI_basic_menu.vcxproj".
@@ -1144,20 +1148,18 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\almaw\source\repo
          	C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_DX12.OBJ
          	C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_WIN32.OBJ
          	C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\MAIN.OBJ
-         ..\libraries\backends\imgui_impl_dx12.cpp will be compiled because it was not found in the tracking log.
-         ..\libraries\backends\imgui_impl_win32.cpp will be compiled because it was not found in the tracking log.
-         No output for C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\LIBRARIES\BACKENDS\IMGUI_IMPL_DX12.CPP|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\LIBRARIES\BACKENDS\IMGUI_IMPL_WIN32.CPP was found in the tracking log; source compilation required.
+         src\main.cpp will be compiled because C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\src\main.cpp was modified at 1/13/2024 5:57:14 AM.
+         Outputs for C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\SRC\MAIN.CPP:
+         	C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\MAIN.OBJ
          Write Tracking Logs:
          	x64\Debug\IMGUI_basic_menu.tlog\CL.write.1.tlog
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=2040
-           SARIF_OUTPUT_PIPE=2020
-         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.39.33218\bin\HostX64\x64\CL.exe /c /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\backends /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\include /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\include /I"G:\VCPKG\vcpkg\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt ..\libraries\backends\imgui_impl_dx12.cpp ..\libraries\backends\imgui_impl_win32.cpp
+           VS_UNICODE_OUTPUT=848
+           SARIF_OUTPUT_PIPE=1172
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.39.33218\bin\HostX64\x64\CL.exe /c /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\backends /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\include /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\include /I"G:\VCPKG\vcpkg\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt src\main.cpp
          Tracking command:
-         C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.tlog /r "C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\LIBRARIES\BACKENDS\IMGUI_IMPL_DX12.CPP|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\LIBRARIES\BACKENDS\IMGUI_IMPL_WIN32.CPP" /b MSBuildConsole_CancelEventc2a048c304fc47ff86949db4f9a71ba2  /c "C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.39.33218\bin\HostX64\x64\CL.exe"  /c /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\backends /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\include /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\include /I"G:\VCPKG\vcpkg\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt ..\libraries\backends\imgui_impl_dx12.cpp ..\libraries\backends\imgui_impl_win32.cpp
-         imgui_impl_dx12.cpp
-         imgui_impl_win32.cpp
-         Generating Code...
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.tlog /r C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\SRC\MAIN.CPP /b MSBuildConsole_CancelEventa1fde1edaf3543fca4ea3f3f2144f547  /c "C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.39.33218\bin\HostX64\x64\CL.exe"  /c /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\backends /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\include /IC:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\include /I"G:\VCPKG\vcpkg\installed\x64-windows\include" /ZI /JMC /nologo /W3 /WX- /diagnostics:column /sdl /Od /D _DEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /permissive- /Fo"x64\Debug\\" /Fd"x64\Debug\vc143.pdb" /external:W3 /Gd /TP /FC /errorReport:prompt src\main.cpp
+         main.cpp
        Done executing task "CL".
      1>Done building target "ClCompile" in project "IMGUI_basic_menu.vcxproj".
        Target "RunSelectedFileNativeCodeAnalysis" skipped, due to false condition; ('$(RunMsvcAnalysis)'=='true' and '$(SelectedFiles)'!='') was evaluated as ('false'=='true' and ''!='').
@@ -1274,22 +1276,70 @@ Logging verbosity is set to: Detailed.     1>Project "C:\Users\almaw\source\repo
        Task "Link"
          Write Tracking Logs:
          	x64\Debug\IMGUI_basic_menu.tlog\link.write.1.tlog
-         	x64\Debug\IMGUI_basic_menu.tlog\link-cvtres.write.1.tlog
-         	x64\Debug\IMGUI_basic_menu.tlog\link-rc.write.1.tlog
          Read Tracking Logs:
          	x64\Debug\IMGUI_basic_menu.tlog\link.read.1.tlog
-         	x64\Debug\IMGUI_basic_menu.tlog\link.read.2.tlog
-         	x64\Debug\IMGUI_basic_menu.tlog\link-cvtres.read.1.tlog
-         	x64\Debug\IMGUI_basic_menu.tlog\link-rc.read.1.tlog
-         No output for C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_DX12.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_WIN32.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\MAIN.OBJ was found in the tracking log; source compilation required.
-         No dependencies for output C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_DX12.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_WIN32.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\MAIN.OBJ were found in the tracking log; source compilation required.
+         Outputs for C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_DX12.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_WIN32.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\MAIN.OBJ:
+         	C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_BASIC_MENU.EXE
+         	C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_BASIC_MENU.PDB
+         Inputs for C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_DX12.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_WIN32.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\MAIN.OBJ:
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\D3D12.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\D3DCOMPILER.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\DXGI.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\KERNEL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\USER32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\GDI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\WINSPOOL.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\COMDLG32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\ADVAPI32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\SHELL32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\OLE32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\OLEAUT32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\UUID.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\ODBC32.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\ODBCCP32.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\GLAD.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\GLFW3DLL.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\GLU32.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\IMGUID.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\LOWLEVELAABB_STATIC_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\LOWLEVELDYNAMICS_STATIC_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\LOWLEVEL_STATIC_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\OPENGL32.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\PHYSXCHARACTERKINEMATIC_STATIC_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\PHYSXCOMMON_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\PHYSXCOOKING_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\PHYSXEXTENSIONS_STATIC_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\PHYSXFOUNDATION_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\PHYSXPVDSDK_STATIC_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\PHYSXTASK_STATIC_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\PHYSXVEHICLE2_STATIC_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\PHYSXVEHICLE_STATIC_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\PHYSX_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\SCENEQUERY_STATIC_64.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\SDL2D.LIB
+         	G:\VCPKG\VCPKG\INSTALLED\X64-WINDOWS\DEBUG\LIB\SIMULATIONCONTROLLER_STATIC_64.LIB
+         	C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_DX12.OBJ
+         	C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_WIN32.OBJ
+         	C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\MAIN.OBJ
+         	C:\WINDOWS\GLOBALIZATION\SORTING\SORTDEFAULT.NLS
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\PREVIEW\VC\TOOLS\MSVC\14.39.33218\LIB\X64\MSVCRTD.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\PREVIEW\VC\TOOLS\MSVC\14.39.33218\LIB\X64\OLDNAMES.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\DWMAPI.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\DXGUID.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UM\X64\IMM32.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\PREVIEW\VC\TOOLS\MSVC\14.39.33218\LIB\X64\VCRUNTIMED.LIB
+         	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.22621.0\UCRT\X64\UCRTD.LIB
+         	C:\PROGRAM FILES\MICROSOFT VISUAL STUDIO\2022\PREVIEW\VC\TOOLS\MSVC\14.39.33218\BIN\HOSTX64\X64\CVTRES.EXE
+         	C:\WINDOWS\SYSTEM32\TZRES.DLL
+         	C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\VC143.PDB
+         Source compilation required: input C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\MAIN.OBJ is newer than output C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_BASIC_MENU.EXE.
          Environment Variables passed to tool:
-           VS_UNICODE_OUTPUT=1656
+           VS_UNICODE_OUTPUT=1740
          C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.39.33218\bin\HostX64\x64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.exe" /INCREMENTAL /ILK:"x64\Debug\IMGUI_basic_menu.ilk" /NOLOGO /LIBPATH:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\libs\glfw\lib-vc2010-64" /LIBPATH:C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\libs\usynergy /LIBPATH:C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\libs\emscripten /LIBPATH:"G:\VCPKG\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"G:\VCPKG\vcpkg\installed\x64-windows\debug\lib\manual-link" d3d12.lib d3dcompiler.lib dxgi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "G:\VCPKG\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.lib" /MACHINE:X64 x64\Debug\imgui_impl_dx12.obj
          x64\Debug\imgui_impl_win32.obj
          x64\Debug\main.obj
          Tracking command:
-         C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.tlog /r "C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_DX12.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_WIN32.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\MAIN.OBJ" /b MSBuildConsole_CancelEvent8337c01ce744417c9e6600f036a830ed  /c "C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.39.33218\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.exe" /INCREMENTAL /ILK:"x64\Debug\IMGUI_basic_menu.ilk" /NOLOGO /LIBPATH:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\libs\glfw\lib-vc2010-64" /LIBPATH:C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\libs\usynergy /LIBPATH:C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\libs\emscripten /LIBPATH:"G:\VCPKG\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"G:\VCPKG\vcpkg\installed\x64-windows\debug\lib\manual-link" d3d12.lib d3dcompiler.lib dxgi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "G:\VCPKG\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.lib" /MACHINE:X64 x64\Debug\imgui_impl_dx12.obj
+         C:\Program Files\Microsoft Visual Studio\2022\Preview\MSBuild\Current\Bin\amd64\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.tlog /r "C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_DX12.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\IMGUI_IMPL_WIN32.OBJ|C:\USERS\ALMAW\SOURCE\REPOS\GAME\RESPOS\GITHUB\IMGUI\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\IMGUI_BASIC_MENU\X64\DEBUG\MAIN.OBJ" /b MSBuildConsole_CancelEvent1d931bcc12c34293b87747b8cb5130e4  /c "C:\Program Files\Microsoft Visual Studio\2022\Preview\VC\Tools\MSVC\14.39.33218\bin\HostX64\x64\link.exe"  /ERRORREPORT:PROMPT /OUT:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.exe" /INCREMENTAL /ILK:"x64\Debug\IMGUI_basic_menu.ilk" /NOLOGO /LIBPATH:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\libs\glfw\lib-vc2010-64" /LIBPATH:C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\libs\usynergy /LIBPATH:C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\..\libraries\libs\emscripten /LIBPATH:"G:\VCPKG\vcpkg\installed\x64-windows\debug\lib" /LIBPATH:"G:\VCPKG\vcpkg\installed\x64-windows\debug\lib\manual-link" d3d12.lib d3dcompiler.lib dxgi.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib "G:\VCPKG\vcpkg\installed\x64-windows\debug\lib\*.lib" /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\almaw\source\repos\GAME\RESPOS\Github\IMGUI\IMGUI_basic_menu\IMGUI_basic_menu\IMGUI_basic_menu\x64\Debug\IMGUI_basic_menu.lib" /MACHINE:X64 x64\Debug\imgui_impl_dx12.obj
          x64\Debug\imgui_impl_win32.obj
          x64\Debug\main.obj
        Done executing task "Link".
@@ -1537,4 +1587,4 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:02.03
+Time Elapsed 00:00:01.75
