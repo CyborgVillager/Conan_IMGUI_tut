@@ -1,0 +1,1 @@
+C:\Users\almaw\source\repos\IMGUI_edu_game_wizard\examples\example_win32_directx12\Debug\game_wizard_example_win32_directx12.exe

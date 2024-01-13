@@ -9,3 +9,10 @@ For AstroRoost will be bit more refined and better documentation for the purpose
 
 Prob for now will combine IMGUI with the mini, then later make a sep public respo on Astro for plug in play , containing only IMGUI . Using the local tuts on local drive to build a
 sketch up for the mini project purpose atm.
+
+
+====
+
+-Basic out of the box, default imgui from OG git
+
+-Updating to get hands on exp
