@@ -7,5 +7,5 @@ https://github.com/ocornut/imgui/wiki/Getting-Started#preamble
 
 For AstroRoost will be bit more refined and better documentation for the purpose of the mini, 2nd project and the main.
 
-Prob for now will combine IMGUI with the mini, then make a sep public respo on Astro for plug in play , containing only IMGUI . Using the local tuts on local drive to build a
+Prob for now will combine IMGUI with the mini, then later make a sep public respo on Astro for plug in play , containing only IMGUI . Using the local tuts on local drive to build a
 sketch up for the mini project purpose atm.
