@@ -18,3 +18,5 @@ sketch up for the mini project purpose atm.
 -Updating to get hands on exp
 
 -V2 is just to re-confirm if sending in full source code is feasible with the basic plan, all green so far (👍 ͡▀̿ ̿ ͜ʖ ͡▀̿ ̿ )👍
+
+-- Yea will clean up the git push to an extent later, seeing unnecessary* data not relating to the this exp training 
