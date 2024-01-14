@@ -5,6 +5,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{8B97C997-1149-48B3-BE1A-9D85AE962F72}|IMGUI_basic_menu\\IMGUI_basic_menu.vcxproj|C:\\Users\\almaw\\source\\repos\\GAME\\RESPOS\\Github\\IMGUI\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{8B97C997-1149-48B3-BE1A-9D85AE962F72}|IMGUI_basic_menu\\IMGUI_basic_menu.vcxproj|solutionrelative:IMGUI_basic_menu\\src\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8B97C997-1149-48B3-BE1A-9D85AE962F72}|IMGUI_basic_menu\\IMGUI_basic_menu.vcxproj|C:\\Users\\almaw\\source\\repos\\GAME\\RESPOS\\Github\\IMGUI\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\src\\main_two.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{8B97C997-1149-48B3-BE1A-9D85AE962F72}|IMGUI_basic_menu\\IMGUI_basic_menu.vcxproj|solutionrelative:IMGUI_basic_menu\\src\\main_two.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,15 +30,28 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main_two.cpp",
+              "DocumentMoniker": "C:\\Users\\almaw\\source\\repos\\GAME\\RESPOS\\Github\\IMGUI\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\src\\main_two.cpp",
+              "RelativeDocumentMoniker": "IMGUI_basic_menu\\src\\main_two.cpp",
+              "ToolTip": "C:\\Users\\almaw\\source\\repos\\GAME\\RESPOS\\Github\\IMGUI\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\src\\main_two.cpp",
+              "RelativeToolTip": "IMGUI_basic_menu\\src\\main_two.cpp",
+              "ViewState": "AQIAAK8BAAAAAAAAAAAcwNYBAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-01-14T08:20:43.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\almaw\\source\\repos\\GAME\\RESPOS\\Github\\IMGUI\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\src\\main.cpp",
               "RelativeDocumentMoniker": "IMGUI_basic_menu\\src\\main.cpp",
               "ToolTip": "C:\\Users\\almaw\\source\\repos\\GAME\\RESPOS\\Github\\IMGUI\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\IMGUI_basic_menu\\src\\main.cpp",
               "RelativeToolTip": "IMGUI_basic_menu\\src\\main.cpp",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAEUAAABNAAAA",
+              "ViewState": "AQIAAIsAAAAAAAAAAAAAAJoAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-01-13T11:23:06.045Z",
+              "WhenOpened": "2024-01-14T08:20:11.069Z",
               "EditorCaption": ""
             }
           ]
