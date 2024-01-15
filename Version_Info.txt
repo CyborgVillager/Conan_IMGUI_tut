@@ -24,3 +24,4 @@ sketch up for the mini project purpose atm.
 --Basic update : https://youtu.be/Lx-Xj1edhSQ?si=EWqWwrBk8v3BCDSg
 
 - Will include comments, mainly testing out various tuts to get more exp at the moment
+-- Oh yea basic login, admin , password 
