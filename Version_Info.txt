@@ -19,4 +19,8 @@ sketch up for the mini project purpose atm.
 
 -V2 is just to re-confirm if sending in full source code is feasible with the basic plan, all green so far (👍 ͡▀̿ ̿ ͜ʖ ͡▀̿ ̿ )👍
 
--- Yea will clean up the git push to an extent later, seeing unnecessary* data not relating to the this exp training 
+- Yea will clean up the git push to an extent later, seeing unnecessary* data not relating to the this exp training 
+
+--Basic update : https://youtu.be/Lx-Xj1edhSQ?si=EWqWwrBk8v3BCDSg
+
+- Will include comments, mainly testing out various tuts to get more exp at the moment

@@ -16,6 +16,9 @@
 #include <d3d12.h>
 #include <dxgi1_4.h>
 #include <tchar.h>
+// New Addition to make the "Login Form-Basic"
+#include <iostream>
+#include <string>
 
 #ifdef _DEBUG
 #define DX12_ENABLE_DEBUG_LAYER
@@ -107,13 +110,24 @@ int main(int, char**)
     // - Use '#define IMGUI_ENABLE_FREETYPE' in your imconfig file to use Freetype for higher quality font rendering.
     // - Read 'docs/FONTS.md' for more instructions and details.
     // - Remember that in C/C++ if you want to include a backslash \ in a string literal you need to write a double backslash \\ !
-    //io.Fonts->AddFontDefault();
+    io.Fonts->AddFontDefault();
+    ImFont* mainfont = io.Fonts->AddFontFromFileTTF("..\\libraries\\fonts\\MedievalSharp-Regular.ttf", 18.0f,NULL);
+    IM_ASSERT(mainfont != NULL);
+   // io.Fonts->AddFontFromFileTTF("../../libraries/fonts/DroidSans.ttf", 16.0f);
     //io.Fonts->AddFontFromFileTTF("c:\\Windows\\Fonts\\segoeui.ttf", 18.0f);
     //io.Fonts->AddFontFromFileTTF("../../misc/fonts/DroidSans.ttf", 16.0f);
     //io.Fonts->AddFontFromFileTTF("../../misc/fonts/Roboto-Medium.ttf", 16.0f);
     //io.Fonts->AddFontFromFileTTF("../../misc/fonts/Cousine-Regular.ttf", 15.0f);
     //ImFont* font = io.Fonts->AddFontFromFileTTF("c:\\Windows\\Fonts\\ArialUni.ttf", 18.0f, nullptr, io.Fonts->GetGlyphRangesJapanese());
     //IM_ASSERT(font != nullptr);
+
+    //
+    ImGuiStyle& style = ImGui::GetStyle();
+    //Theme link info: https://youtu.be/UpE0EHDGE8k?si=_hfiGWvNgrWDbtFy&t=401
+    style.Colors[ImGuiCol_WindowBg] = ImVec4(0, 0, 0, 255);
+    style.WindowRounding = 0.25;
+
+
 
     // Our state
     bool show_demo_window = true;
@@ -124,6 +138,13 @@ int main(int, char**)
     //Slider
     int int_test_slider = 0;
     float float_test = 0.0f;
+    //Log
+    bool log_in = false;
+    char input_username[256] = "";
+    char input_password[256] = "";
+
+    std::string username = "admin";
+    std::string password = "password";
 
 
     // Main loop
@@ -158,26 +179,56 @@ int main(int, char**)
         //Window Tab Box
         if (ImGui::Begin("Window Test", NULL,ImGuiWindowFlags_NoResize | ImGuiWindowFlags_NoCollapse))
         {
-            //Checkbox
-            ImGui::Checkbox("Test Bool-Checkbox", &test_bool_checkbox);
-            //Button -  to open a test_bool_checkbox new window , it connects to      if (test_bool_checkbox == true)
-            if (ImGui::Button("Click me!"))
+            ImGui::PushFont(mainfont);
+            ImGui::Text("Input Username > ");
+            ImGui::InputText("##usernameinput", input_username, sizeof(input_username));
+         
+            ImGui::Text("Input Password > ");
+            ImGui::InputText("##passwordinput", input_password, sizeof(input_password), ImGuiInputTextFlags_Password);
+           
+            if (ImGui::Button("Login"))
             {
-                test_bool_checkbox = true;
+                if (std::string(input_username) == username && std::string(input_password) == password)
+                {
+                    log_in = true;
+                }
             }
-            //Slider  , min slider is 0, max slider value is 25
-           ImGui::SliderInt("Choose Number", &int_test_slider,0, 25);
-            ImGui::SliderFloat("Choose Float", &float_test, 0.0f, 25.5f);
-
+            ImGui::PopFont();
 
         }ImGui::End();
        
         //Button to open a test_bool_checkbox new window int_test_slider == 25
-        if (test_bool_checkbox == true || int_test_slider == 25 || float_test == 25.5f)
+        //test_bool_checkbox == true || int_test_slider == 25 || float_test == 25.5f
+        if (log_in)
         {
-            ImGui::SetNextWindowSize(ImVec2(200, 200));
+            ImGui::SetNextWindowSize(ImVec2(500, 400));
             if (ImGui::Begin("window 2"))
             {
+                ImGui::PushFont(mainfont);
+                //Checkbox
+                ImGui::Checkbox("Test Bool-Checkbox", &test_bool_checkbox);
+                //Button -  to open a test_bool_checkbox new window , it connects to      if (test_bool_checkbox == true)
+                if (ImGui::Button("Click me!"))
+                {
+                    test_bool_checkbox = true;
+                }
+                //Slider  , min slider is 0, max slider value is 25
+              // ImGui::SliderInt("Choose Number", &int_test_slider,0, 25);
+              // ImGui::SliderFloat("Choose Float", &float_test, 0.0f, 25.5f);
+
+               //Updated
+                ImGui::Text("Int");
+                ImGui::SliderInt("##d", &int_test_slider, 0, 25);
+                ImGui::Text("Float");
+                ImGui::SliderFloat("##dd", &float_test, 0.0f, 25.5f);
+                //Button
+              
+                //Button  100 - width(x), 50 - height(y)
+                if (ImGui::Button("Test Button", ImVec2(100, 50)))
+                {
+                    ImGui::SetCursorPos(ImVec2(400, 100));
+                }
+                ImGui::PopFont();
 
             }ImGui::End();
         }
